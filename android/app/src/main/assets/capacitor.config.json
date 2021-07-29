@@ -1,0 +1,6 @@
+{
+	"appId": "io.googlelogin.ap",
+	"appName": "google-login",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,33 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="primary">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/signup">SIGN UP</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="auth-form">
+  <div id="header">
+    <h1>Login</h1>
+  </div>
+
+  <form id="form" >
+    <h1> {{ this.inputValue }} </h1>
+    <app-input  type="text"id="username" placeholder="Email" required></app-input>
+    <app-input placeholder="Password"></app-input>
+    <ion-button (click)="logChange()" expand="block" shape="round">Login</ion-button>
+  </form>
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+        <span class="divider line one-line">or</span>
+        <ion-button expand="block" color="danger" shape="round" (click)="googleSignup()">Connect with Google</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>  
+</ion-content>

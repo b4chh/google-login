@@ -1,0 +1,25 @@
+{
+  "appId": "io.googlelogin.ap",
+  "name": "google-login",
+  "bundleWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "wwww",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "capacitor": {}
+  },
+  "GoogleAuth": {
+    "scopes": [
+      "profile",
+      "email"
+    ],
+    "serverClientId": "657334795088-n1546abb4jst4uaqnu99fel63csegcc1.apps.googleusercontent.com",
+    "forceCodeForRefreshToken": true
+  },
+  "type": "angular",
+  "integrations": {
+    "capacitor": {}
+  }
+}

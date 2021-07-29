@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "657334795088",
+    "project_id": "vast-tributary-321116",
+    "storage_bucket": "vast-tributary-321116.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657334795088:android:a33a616d511bd02deb0a55",
+        "android_client_info": {
+          "package_name": "io.googlelogin.ap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657334795088-tq5bk0squl8e82jc3m4erepe3658u95b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.googlelogin.ap",
+            "certificate_hash": "110b3373753ee432fee055fd6e07c12e9f606f64"
+          }
+        },
+        {
+          "client_id": "657334795088-n1546abb4jst4uaqnu99fel63csegcc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8x1wb17MKFCcxYLY72l-iHVYsbFg-bO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657334795088-n1546abb4jst4uaqnu99fel63csegcc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
